@@ -8,7 +8,7 @@ Find the favorability of the audience response for a movie. Specifically, they w
 2. Relative engagement with those topics
 3. How positive/negative the response to the movie has been
 
-### Steps to be completed:
+## Steps to be completed:
 
 - [ ] Pick a movie
 - [ ] Create Twitter API script to collect 1000 tweets over 3 days ("You should set filters such that all 1,000 posts have a very high likelihood of being related to the movie AND all are in English (ensure that thelanguage field is set to “en”… this isn’t exact, but it gets close). You can filter by hashtags or words when collecting Twitter data. You can choose the exact words, as long as they are related to the context that we mentioned before")
