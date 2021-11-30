@@ -20,7 +20,15 @@ def main():
     dump_file = open(args.output, "w")
     dump_file.write(",".join(tweets_arr[0]) + "\n")
     for line in sample[1:]:
-        dump_file.write(",".join(line) + "\n")
+        line = ["\"" + item + "\"" for item in line]
+        new_line = ",".join(line)
+        fixed_line = ""
+        for ch in new_line:
+            if ch == "\n":
+                continue
+            fixed_line += ch
+
+        dump_file.write(fixed_line + "\n")
     dump_file.close()
 
 
