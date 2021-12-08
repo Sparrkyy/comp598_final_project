@@ -1,0 +1,21 @@
+{
+	"actor/character talk": ["character", "xialing", "liu", "simu", "wong", "katy", "ago", "cast", "gt", "help"],
+	"advertisement": ["copy", "hd", "join", "stores", "hustle", "exclusive", "blu", "ray", "ad", "sweepstakes"],
+	"comparison": ["gt", "reviewed", "weekly", "share", "wandavision", "loki", "free", "feel", "winter", "falcon"],
+	"release": ["dir", "blu", "ray", "release", "theater", "wait", "experience", "hoping", "november", "tickets"],
+	"review": ["enjoyed", "amazing", "top", "beautiful", "story", "finally", "mean", "scenes", "wow", "fight"],
+	"scene/plot talk": ["bus", "fight", "scenes", "abt", "life", "china", "deleted", "dragons", "wanda", "wong"],
+	"too little info": [
+		"bluemiracle",
+		"doompatrol",
+		"dracula",
+		"johnleguizamoslatinhistoryformorons",
+		"luisesparza",
+		"maid",
+		"midnightmass",
+		"netflix",
+		"pablo",
+		"retweet"
+	],
+	"watching": ["rewatching", "fuck", "watching", "watched", "finally", "finished", "yes", "imax", "night", "watch"]
+}
