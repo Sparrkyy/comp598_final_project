@@ -435,6 +435,4 @@ yours
 z
 shang
 chi
-shangchi 
-http
-https
+shangchi

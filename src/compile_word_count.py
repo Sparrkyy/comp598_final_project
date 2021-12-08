@@ -1,8 +1,7 @@
 import argparse
 import csv
 import json
-# python3 src/compile_word_counts.py -o data/output.json -d data/clean_dialog.csv
-
+# python3.9 src/compile_word_count.py -o data/word_counts.json -d data/fully_annotated2.tsv
 
 stopwords = {}
 stopwords_file = open("data/stopwords.txt")
@@ -68,7 +67,7 @@ def get_counts(dialog_file):
         for keyword in to_delete:
             del catagory_words[key][keyword]
 
-    print(list(catagory_words))
+    # print(list(catagory_words))
     return catagory_words
 
 
